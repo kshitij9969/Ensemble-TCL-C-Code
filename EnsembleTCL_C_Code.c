@@ -116,6 +116,14 @@ int main ()
 	}
 
     }
+	/*Switching functions*/
+	for(int q=0;q<10;q++)
+	{
+		int output1[10],output2[10];
+		output1[q]=heaviside(phi_heavi[0][q]);
+		output2[q]=heaviside(phi_heavi[1][q]);
+		
+	}
     
     /*------------------------------ONLY FOR DISPLAYING VALUES OF PHIs.------------------------------------------*/
   for (int f = 0; f < 10; f++)
@@ -129,3 +137,4 @@ int main ()
 
     }
     }
+
