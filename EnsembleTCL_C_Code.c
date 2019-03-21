@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+/*Peripherals will come here.*/
 
-
-/*Single TCL.*/
 int N = 2;			                                    /*Number of TCLs. */
 float W = 1.73;			                                /*Natural frequency. */
 float Wfft = 0.2980;		                            /*Wfft computed from the signals received. */
